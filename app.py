@@ -7,7 +7,7 @@ model = joblib.load("KNN_heart_disease.pkl")
 scaler = joblib.load("scaler.pkl")              # fitted ONLY on numeric cols
 expected_columns = joblib.load("columns.pkl")  # full feature set used in model
 
-st.title("Heart Disease Prediction by Jishan")
+st.title("Heart Disease Prediction")
 st.markdown("Provide the following details:")
 
 # ---------- User Inputs ----------
